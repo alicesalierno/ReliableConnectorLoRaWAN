@@ -1,6 +1,6 @@
 package lorawan.model;
 
-import com.google.gson.Gson;
+
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -46,8 +46,4 @@ public class JoinMessage implements Serializable {
         return "{\"activationMode\":\"" + joinMessage.getActivationMode() + "\"}";
     }
 
-    public static JoinMessage fromJson(String json) {
-        Gson gson = new Gson();
-        return gson.fromJson(json, JoinMessage.class);
-    }
 }
