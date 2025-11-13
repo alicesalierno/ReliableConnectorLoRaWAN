@@ -24,7 +24,7 @@ Message publishing is **decoupled from transmission**, meaning messages are firs
 
 1. Clone the repository  
 2. Install a Redis instance using Docker  
-3. Edit the `config.properties` file and update the `"redis"` and `"serialPort"` fields accordingly  
+3. Edit the `config.properties` file and update the `redis` and `serialPort` fields accordingly  
 
 ---
 
